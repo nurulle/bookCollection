@@ -19,29 +19,35 @@
       }
     </style>
 
-    <title>Hello, world!</title>
+    <title>Borrow</title>
 </head>
 <body>
   
+     <!-- navbar -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-
-            
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border: 1px solid rgb(184, 182, 182); border-radius: 30px; height: 35px; color: rgb(146, 135, 135); bottom: 25%"> 
-                        
-            </form>
-
-            <div class="text-center">
-                <img src="img/Logo.png" class="rounded" alt="...">
-              </div>
+      <div class="container-fluid">
   
-              <a href="javascript: void(0)" class="btn" style="border: 1px solid rgb(184, 182, 182); border-radius: 30px; height: 35px; color: rgb(146, 135, 135); bottom: 25% " >Sign Up</a>
+          <div class="position-relative">
+              <input class="form-control " type="search" placeholder="Search" required="" style="border-radius: 30px; bottom: 25%;">
+              <i class="fa fa-search fa-lg position-absolute" style="top: 13px; right: 1rem; color: rgb(184, 182, 182);"></i>
+          </div>
 
-        </div>
+
+          <div class="text-center">
+            <a href="index.html">
+              <img src="img/Logo.png" class="rounded" alt="...">
+            </a>
+          </div>
+
+          <a href="profil.html">
+              <img src="img/Circled User Male Skin Type 6.png" alt="" class="avatar" style = "vertical-align:middle; width:50px; height:50px; border-radius:50">
+          </a>
+          
+      </div>
     </nav>
 
-
+  <!--  -->
     <div class="row" style="margin-left: 40vh; margin-top: 10vh; margin-right: 10vh;">
         <div class="column">
             <img src="img/image 12.png">
@@ -77,29 +83,26 @@
         </div>
     </div>
 
+
+
+<!--  -->
+
     <div class="row" style="margin-left: 40vh; margin-top: 10vh; margin-right: 10vh;">
-        <div class="column">
-            <img src="img/image 12.png">
+      <div class="column">
+        <input type="datetime-local" class="dateTime" name="starttime" id="startTime" step="2" style="width: 250px;">
+      </div>
+
+      <div class="column" style="margin-left: 10vh;">
+        <h4>Discussion</h4>
+        <div class="form-group" style="width: 600px;">
+            <input type="text" class="form-control" placeholder="Type Here" style="border: 1px 
+            solid color = #1f81DF; height: 100px; padding-left: 55px;">
         </div>
 
-        <div class="column" style="margin-left: 10vh;">
-            <h4>Discussion</h4>
-            <div class="form-group" style="width: 500px;">
-                <input type="text" class="form-control" placeholder="Drag & Drop File Here" style="border: 1px 
-                solid color = #1f81DF; height: 100px; padding-left: 55px;">
-            </div>
+        <a href="waitingborrow.html" class="btn w-50px" style="background-color: #1f81DF; color: white; border-radius: 20px; width: 150px; height: 40px; margin-left: 55vh;">Send</a>
 
-            <a href="javascript: void(0)" class="btn w-50px" style="background-color: #1f81DF; color: white; border-radius: 20px; width: 150px; height: 40px; margin-left: 55vh;">Send</a>
-
-        </div>
+      </div>
     </div>
-
-
-
-
-
-
-
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

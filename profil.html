@@ -8,45 +8,91 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+    <style>
+      *{
+        font-family: Poppins sans-serif;
+      }
+    </style>
+
+    <title>Books</title>
   </head>
   <body>
     
+    <!-- navbar -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid" >
-
-            
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border: 1px solid rgb(184, 182, 182); border-radius: 30px; height: 35px; color: rgb(146, 135, 135); bottom: 25%"> 
-                        
-            </form>
-
-            <div class="text-center">
-                <img src="img/Logo.png" class="rounded" alt="...">
+        <div class="container-fluid">
+    
+            <div class="position-relative">
+                <input class="form-control " type="search" placeholder="Search" required="" style="border-radius: 30px; bottom: 25%;">
+                <i class="fa fa-search fa-lg position-absolute" style="top: 13px; right: 1rem; color: rgb(184, 182, 182);"></i>
             </div>
 
-            <img src="img/Circled User Male Skin Type 6.png" alt="" class="avatar" style = "vertical-align:middle; width:50px; height:50px; border-radius:50">
 
+            <div class="text-center">
+                <a href="index.html">
+                  <img src="img/Logo.png" class="rounded" alt="...">
+                </a>
+              </div>
+
+            <a href="profil.html">
+                <img src="img/Circled User Male Skin Type 6.png" alt="" class="avatar" style = "vertical-align:middle; width:50px; height:50px; border-radius:50">
+            </a>
+            
         </div>
     </nav>
 
 
     <body>
         <div class="container-fluid">
-            <div class="row" style="height: 100vh">
-                <div class="col-4">
-                    <div class="d-flex justify-content-around align-items-center flex-column" style="height: 10%; margin-top: 10px; margin-right: 10px;">
+            <div class="row" style="height: 50vh; margin-top: 5vh;">
+                
+                <div class="col-3">
+                    <div class="d-flex justify-content-around align-items-center flex-column" style="height: 10%; margin-top: 25vh; margin-right: 10px;">
                         
-                        
-
-                        <div class="input-group">
-                            <img src="img/Group 52.png">
-                            <span class="input-group-btn">
-                              <button class="btn btn-default" type="button">Go!</button>
-                            </span>
+                
+                          <div class="col-md-12 mt-3">
+                            <a href="profil.html">
+                                <img src="img/Group 52.png" style="width: 40px; height: 40px" alt=""/>
+                                <p style="display: inline-block; margin-left: 3vh; font-size: 20px;" >Profil</p>
+                            </a>
                           </div>
-
-
+                      
+                          <div class="col-md-12 mt-3">
+                            <a href="books.html">
+                                <img src="img/Group 53.png" style="width: 40px; height: 40px" alt="" />
+                                <p style="display: inline-block; margin-left: 3vh; font-size: 20px;">Books</p>
+                            </a>
+                          </div>
+                      
+                          <div class="col-md-12 mt-3">
+                            <a href="outofdate.html">
+                                <img src="img/Group 54 (1).png" style="width: 40px; height: 40px;" alt="" />
+                                <p style="display: inline-block; margin-left: 3vh; font-size: 20px;">Out of Date</p>
+                            </a>
+                            </div>
+                        
+                          <div class="col-md-12 mt-3">
+                            <a href="waitingborrow.html">
+                                <img src="img/Group 54 (1).png" style="width: 40px; height: 40px" alt=""/>
+                                <p style="display: inline-block; margin-left: 3vh; font-size: 20px;">Waiting Borrow</p>
+                            </a>
+                            </div>
+                        
+                          <div class="col-md-12 mt-3">
+                            <a href="waiting.html">
+                                <img src="img/Group 54 (2).png" style="width: 40px; height: 40px" alt="" />
+                                <p style="display: inline-block;margin-left: 3vh; font-size: 20px;">Waiting</p>
+                            </a>
+                        </div>
+                    
                     </div>
                 </div>
     
@@ -58,7 +104,7 @@
                         <div style="margin-top: 10vh;">
                             <label style="color: #1f81DF;">Username</label>
                             <div class="form-group" style="width: 500px;">
-                                <input type="text" class="form-control" placeholder="input coco" style="border: 1px 
+                                <input type="text" class="form-control" placeholder="coco" style="border: 1px 
                                 solid color = #1f81DF; border-radius: 30px; height: 50px; padding-left: 55px;">
                             </div>
                             
